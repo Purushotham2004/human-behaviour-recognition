@@ -1,118 +1,90 @@
-**# 🧠 Human Behaviour Recognition using Multiscale CNN**
+# 🧠 Human Behaviour Recognition using Multiscale CNN
 
+## 📌 Overview
 
+This project focuses on recognizing human activities using a Multiscale Convolutional Neural Network (CNN). It integrates deep learning with a Django-based web interface to provide an end-to-end solution.
 
-**## 📌 Overview**
+---
 
+## 🚀 Features
 
+* Multiscale CNN for feature extraction
+* Accurate human activity classification
+* Web interface using Django
+* Scalable ML pipeline
 
-**This project focuses on recognizing human activities using a Multiscale Convolutional Neural Network (CNN). It integrates deep learning with a Django-based web interface to provide an end-to-end solution.**
+---
 
+## 🛠️ Tech Stack
 
+* Python
+* TensorFlow / Keras
+* Django
+* NumPy, Pandas
 
-**---**
+---
 
+## 📂 Project Structure
 
+* `HumanBehaviour/` → Main application
+* `model/` → ML models
+* `DatasetLink.txt` → Dataset reference
 
-**## 🚀 Features**
+---
 
+## ▶️ How to Run
 
+```bash
+pip install -r requirements.txt
+python manage.py runserver
+```
 
-**\* Multiscale CNN for feature extraction**
+---
 
-**\* Accurate human activity classification**
+## 📊 Output
 
-**\* Web interface using Django**
+Predicts human activities such as walking, sitting, and standing.
 
-**\* Scalable ML pipeline**
+---
 
+## 📌 Note
 
+Dataset is not included due to size limitations. Refer to `DatasetLink.txt`.
 
-**---**
+---
 
+## 📸 Screenshots
 
+### 📊 Dataset Visualization
 
-**## 🛠️ Tech Stack**
+![Dataset](screenshots/dataset.png)
 
+### 📈 Activity Distribution
 
+![Graph](screenshots/graph.png)
 
-**\* Python**
+### 🤖 CNN2D Model Output
 
-**\* TensorFlow / Keras**
+![CNN2D](screenshots/cnn2d.png)
 
-**\* Django**
+### 🧠 MCNN (CNN3D) Model Output
 
-**\* NumPy, Pandas**
+![MCNN](screenshots/mcnn.png)
 
+### 🚀 Extension Model (CNN + GRU + Bi)
 
+![Extension](screenshots/extension.png)
 
-**---**
+### 📊 Model Comparison
 
+![Comparison](screenshots/comparison.png)
 
+### 🔍 Prediction Output
 
-**## 📂 Project Structure**
+![Prediction](screenshots/prediction.png)
 
+---
 
+## 👨‍💻 Author
 
-**\* `HumanBehaviour/` → Main application**
-
-**\* `model/` → ML models**
-
-**\* `DatasetLink.txt` → Dataset reference**
-
-
-
-**---**
-
-
-
-**## ▶️ How to Run**
-
-
-
-**```bash**
-
-**pip install -r requirements.txt**
-
-**python manage.py runserver**
-
-**```**
-
-
-
-**---**
-
-
-
-**## 📊 Output**
-
-
-
-**Predicts human activities such as walking, sitting, and standing.**
-
-
-
-**---**
-
-
-
-**## 📌 Note**
-
-
-
-**Dataset is not included due to size limitations. Refer to `DatasetLink.txt`.**
-
-
-
-**---**
-
-
-
-**## 👨‍💻 Author**
-
-
-
-**Purushotham**
-
-
-
+Purushotham
